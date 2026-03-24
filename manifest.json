@@ -1,0 +1,77 @@
+{
+  "name": "MedCoreX — Private Healthcare Portal",
+  "short_name": "MedCoreX",
+  "description": "Private authenticated healthcare portal for patients and doctors",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1f3c",
+  "theme_color": "#0d1f3c",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "en",
+  "categories": ["health", "medical"],
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Patient Login",
+      "short_name": "Patient",
+      "url": "./index.html?role=patient",
+      "description": "Login as a patient"
+    },
+    {
+      "name": "Doctor Login",
+      "short_name": "Doctor",
+      "url": "./index.html?role=doctor",
+      "description": "Login as a doctor"
+    }
+  ]
+}

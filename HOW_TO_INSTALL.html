@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Install MedCoreX on Android</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 24px; background: #f5f0e8; color: #0d1f3c; }
+  h1 { color: #0d1f3c; border-bottom: 3px solid #0a7c6e; padding-bottom: 12px; }
+  .step { background: white; border-radius: 12px; padding: 18px 20px; margin: 14px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.08); display: flex; gap: 16px; align-items: flex-start; }
+  .step-num { background: #0d1f3c; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; }
+  .step h3 { margin: 0 0 6px; color: #0d1f3c; }
+  .step p { margin: 0; color: #4a5568; font-size: 0.92rem; line-height: 1.5; }
+  .note { background: #e8f5f2; border: 1px solid #b2e0d8; border-radius: 10px; padding: 14px 16px; margin: 20px 0; font-size: 0.9rem; color: #0a7c6e; }
+  .tip { background: #fff8e6; border: 1px solid #f6cc5a; border-radius: 10px; padding: 14px 16px; margin: 12px 0; font-size: 0.88rem; color: #92650a; }
+  code { background: #eee; padding: 2px 6px; border-radius: 4px; font-size: 0.88rem; }
+</style>
+</head>
+<body>
+<h1>🏥 How to Install MedCoreX on Android</h1>
+
+<div class="note">
+  <strong>✅ MedCoreX is a PWA (Progressive Web App)</strong> — it works exactly like a native app on your Android phone. No Play Store needed!
+</div>
+
+<h2>📱 Method 1 — Using Chrome (Recommended)</h2>
+
+<div class="step">
+  <div class="step-num">1</div>
+  <div>
+    <h3>Copy files to a server or open locally</h3>
+    <p>Put all the MedCoreX files (<code>index.html</code>, <code>manifest.json</code>, <code>sw.js</code>, <code>icons/</code> folder) together in one folder. You can host them on any web server, or use a local server app on Android.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">2</div>
+  <div>
+    <h3>Open Chrome on your Android phone</h3>
+    <p>Open <strong>Google Chrome</strong> browser and navigate to your MedCoreX URL (e.g. <code>http://yourserver.com/medcorex/</code>)</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">3</div>
+  <div>
+    <h3>Tap the Install banner</h3>
+    <p>A banner will appear at the bottom saying <strong>"Install MedCoreX App"</strong> — tap the <strong>Install</strong> button. Or tap the Chrome menu (⋮) → <strong>"Add to Home screen"</strong></p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">4</div>
+  <div>
+    <h3>Confirm installation</h3>
+    <p>Tap <strong>"Install"</strong> in the popup. MedCoreX will be added to your home screen with the hospital icon, just like any other app!</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">5</div>
+  <div>
+    <h3>Open from Home Screen</h3>
+    <p>Tap the <strong>MedCoreX 🏥</strong> icon on your home screen. It opens in full screen (no browser address bar) — looks and feels like a real app!</p>
+  </div>
+</div>
+
+<h2>🌐 Easiest Way to Host (Free)</h2>
+<div class="step">
+  <div class="step-num">💡</div>
+  <div>
+    <h3>Use GitHub Pages (Free hosting)</h3>
+    <p>1. Create a free GitHub account at github.com<br>
+       2. Create a new repository<br>
+       3. Upload all MedCoreX files<br>
+       4. Go to Settings → Pages → Enable GitHub Pages<br>
+       5. Your app will be live at <code>https://yourusername.github.io/medcorex/</code></p>
+  </div>
+</div>
+
+<div class="tip">
+  <strong>⚠️ Important:</strong> PWA install prompt only appears when the app is served over <strong>HTTPS</strong> (not http://). GitHub Pages and Netlify both provide free HTTPS automatically.
+</div>
+
+<div class="note">
+  <strong>🔒 Your data stays private</strong> — all patient and doctor data is stored locally on the device using browser storage. Nothing is sent to any server.
+</div>
+
+<h2>✅ What works offline?</h2>
+<p>Once installed, MedCoreX works fully offline — you can add records, view patient data, write prescriptions, and print reports without internet connection.</p>
+
+</body>
+</html>
